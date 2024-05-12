@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import filedialog
 from moviepy.editor import VideoFileClip
 
-#aqui hacemos que la funcion del proyecto
+# aqui hacemos la funcion 
 
 
 ruta_video = filedialog.askopenfilename(filetypes=[("Archivos de video", "*.mp4;*.avi;*.mkv")])

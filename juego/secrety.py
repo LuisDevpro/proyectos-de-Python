@@ -14,7 +14,7 @@ limpiar_pantalla()
 
 
 
-def inicio ():
+
     print ("________________VAMOR A JUAGAR UN JUEGO ___________________")
     print ("DEBES DE ELEJIR UN NUMERO PARA QUE EL OTRO JUGADOR LO ADIVINE")
     secrety = int(input("INGRESE UN NUMERO DEL 1 AL 20...:"))
@@ -45,7 +45,7 @@ def inicio ():
         time.sleep(3)
         limpiar_pantalla()
 
-    elif secrety > 20:
+    else:
          print("ERROR EL NUMERO NO ES VALIDO ")
          time.sleep(2)
          limpiar_pantalla()
